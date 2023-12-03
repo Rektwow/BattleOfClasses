@@ -57,4 +57,4 @@ This is a school project and will not be published.
 
 #### Note
 
-###### game.js is still sadly not done (TERRIBLE TIME PLANING)
+###### game.js is still not completely done
