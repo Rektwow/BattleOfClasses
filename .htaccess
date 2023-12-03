@@ -1,0 +1,7 @@
+RewriteEngine On
+
+Options -Indexes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(assets|class|config|includes|PHPMailer)
+RewriteRule ^(.+)$ index.php/$1 [L]
